@@ -11,20 +11,28 @@ npm start
 
 ## Examples
 
-use [pm2 cli](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/):
+Use [pm2 cli](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/):
 
-workers running:
+Workers running:
+
 ![image](https://user-images.githubusercontent.com/9889268/81287069-d0121300-906a-11ea-99b1-369745b80a3f.png)
 
-client's send requests per second:
+
+Client's send requests per second:
+
 ![image](https://user-images.githubusercontent.com/9889268/81287335-4282f300-906b-11ea-8654-4b96dc85482e.png)
 
-server's revieves requests per second:
+
+Server's recieves requests per second:
+
 ![image](https://user-images.githubusercontent.com/9889268/81287403-5fb7c180-906b-11ea-8993-60fdc3d9c776.png)
 
-### scale up more client workers (depends on your machine's number of cpu cores limit!) use `nproc` to find out how many you have
 
-here is how you add 3 more client workers:
+### Scale up more client workers
+(depends on your machine's number of cpu cores limit!) use `nproc` to find out how many you have
+
+
+Here is how you add 3 more client workers:
 ```
 pm2 scale client +3
 ```
