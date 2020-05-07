@@ -1,0 +1,20 @@
+{
+  "name": "node-stress-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm i -g pm2",
+    "start": "pm2 start"
+  },
+  "keywords": [],
+  "author": "Idan Izicovich",
+  "license": "ISC",
+  "dependencies": {
+    "@pm2/io": "^4.3.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "promise-limit": "^2.7.0"
+  }
+}
